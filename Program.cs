@@ -12,7 +12,7 @@
             Console.WriteLine("Estimates are valid for 30 days");
             Console.WriteLine("Number of your small carpets: ");
             int smallCarpets = Convert.ToInt32(Console.ReadLine());
-            int smallCarpets = Convert.ToInt32(Console.ReadLine());
+            
             Console.WriteLine("Number of your large carpets: ");
             int largeCarpets = Convert.ToInt32(Console.ReadLine());
             int cost = (smallCarpets * 25) + (largeCarpets * 35);
